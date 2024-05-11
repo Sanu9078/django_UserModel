@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>title</title>
+  </head>
+  <body>
+    <center>
+        <h1>Insert User</h1>
+        <form  method="post">
+            {% csrf_token %}
+            {{EUMO.as_p}}
+            <input type="submit" value="Insert User">
+        </form>
+    </center>
+  </body>
+</html>
